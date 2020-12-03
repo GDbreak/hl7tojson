@@ -1,0 +1,157 @@
+2020-12-03 13:16:09 [INFO]<1> [] ====================================================================
+2020-12-03 13:16:10 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:16:10 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:16:10 [FATL]<1> [] Application terminated unexpectedly
+System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '"' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 7 | BytePositionInLine: 4.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, JsonReaderOptions readerOptions, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.Parse(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at HL7toJSON.Program.Main(String[] args) in C:\Users\hhecht\source\repos\HL7toJSON\Program.cs:line 36
+2020-12-03 13:16:10 [INFO]<1> [] ====================================================================
+
+2020-12-03 13:16:39 [INFO]<1> [] ====================================================================
+2020-12-03 13:17:24 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:17:24 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:17:25 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:17:25 [WARN]<1> [HL7toJSON.Worker] Please make sure the InputFolder [] exists, then restart the service.
+2020-12-03 13:17:28 [INFO]<4> [HL7toJSON.Worker] Stopping Service
+2020-12-03 13:19:59 [INFO]<1> [] ====================================================================
+2020-12-03 13:20:00 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:20:00 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:20:00 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:20:30 [INFO]<1> [] ====================================================================
+2020-12-03 13:20:30 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:20:30 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:20:30 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:20:49 [WARN]<1> [HL7toJSON.Worker] Please make sure the InputFolder [] exists, then restart the service.
+2020-12-03 13:20:50 [INFO]<4> [HL7toJSON.Worker] Stopping Service
+2020-12-03 13:21:30 [INFO]<1> [] ====================================================================
+2020-12-03 13:21:31 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:21:31 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:21:31 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:23:39 [INFO]<1> [] ====================================================================
+2020-12-03 13:23:39 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:23:39 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:23:40 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:23:44 [WARN]<1> [HL7toJSON.Worker] Please make sure the InputFolder [] exists, then restart the service.
+2020-12-03 13:23:50 [INFO]<1> [] ====================================================================
+2020-12-03 13:23:50 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:23:50 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:23:51 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:23:51 [WARN]<1> [HL7toJSON.Worker] Please make sure the InputFolder [] exists, then restart the service.
+2020-12-03 13:29:09 [INFO]<1> [] ====================================================================
+2020-12-03 13:29:09 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:29:09 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:30:12 [INFO]<1> [] ====================================================================
+2020-12-03 13:30:12 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:30:12 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:30:17 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:30:17 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:31:20 [INFO]<1> [] ====================================================================
+2020-12-03 13:31:20 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:31:20 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:31:20 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:31:20 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:31:24 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test - Copy - Copy.hl7]
+2020-12-03 13:31:24 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:31:26 [INFO]<6> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test - Copy - Copy (2).hl7]
+2020-12-03 13:31:26 [INFO]<6> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:31:27 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test - Copy - Copy (3).hl7]
+2020-12-03 13:31:27 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:31:41 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:31:41 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:36:18 [INFO]<1> [] ====================================================================
+2020-12-03 13:36:19 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:36:19 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:36:19 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:36:19 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:36:44 [INFO]<6> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:36:44 [INFO]<6> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1
+PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744
+PV1|
+IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789
+ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI
+OBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422
+DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:36:44 [INFO]<6> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:44:18 [INFO]<1> [] ====================================================================
+2020-12-03 13:44:18 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:44:18 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:44:19 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:44:19 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:44:26 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:44:26 [INFO]<5> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1
+PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744
+PV1|
+IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789
+ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI
+OBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422
+DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:44:27 [INFO]<5> [HL7toJSON.Worker] HL7 Pipe Delimited Message Output:
+2020-12-03 13:44:27 [INFO]<5> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPIOBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:44:27 [INFO]<5> [HL7toJSON.Worker] HL7 XML Formatted Message Output:
+2020-12-03 13:44:27 [INFO]<5> [HL7toJSON.Worker] <ORM_O01 xmlns="urn:hl7-org:v2xml"><MSH><MSH.1>|</MSH.1><MSH.2>^~\&amp;</MSH.2><MSH.3><HD.1>EPIC</HD.1></MSH.3><MSH.5><HD.1>UNITEDSLEEP</HD.1></MSH.5><MSH.7><TS.1>20201117142424</TS.1></MSH.7><MSH.9><MSG.1>ORM</MSG.1><MSG.2>O01</MSG.2></MSH.9><MSH.10>160</MSH.10><MSH.11><PT.1>T</PT.1></MSH.11><MSH.12><VID.1>2.5.1</VID.1></MSH.12></MSH><ORM_O01.PATIENT><PID><PID.1>1</PID.1><PID.5><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></PID.5><PID.7><TS.1>19701008</TS.1></PID.7><PID.8>M</PID.8><PID.11><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></PID.11><PID.13><XTN.1>6314447744</XTN.1></PID.13></PID><ORM_O01.PATIENT_VISIT /><ORM_O01.INSURANCE><IN1><IN1.1>1</IN1.1><IN1.2><CE.1>AUSHC</CE.1><CE.2>AETNA HMO</CE.2></IN1.2><IN1.3><CX.1>4500</CX.1></IN1.3><IN1.4><XON.1>AETNA HMO</XON.1></IN1.4><IN1.5><XAD.1><SAD.1>PO BOX 981106</SAD.1></XAD.1><XAD.3>EL PASO</XAD.3><XAD.4>TX</XAD.4><XAD.5>79998-1106</XAD.5></IN1.5><IN1.7><XTN.1>8006240756</XTN.1></IN1.7><IN1.8>12121</IN1.8><IN1.16><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></IN1.16><IN1.17><CE.1>1</CE.1></IN1.17><IN1.18><TS.1>19701008</TS.1></IN1.18><IN1.19><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></IN1.19><IN1.22>1</IN1.22><IN1.36>123456789</IN1.36></IN1></ORM_O01.INSURANCE></ORM_O01.PATIENT><ORM_O01.ORDER><ORC><ORC.1>NW</ORC.1><ORC.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></ORC.2><ORC.7><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></ORC.7><ORC.9><TS.1>20201117142422</TS.1></ORC.9><ORC.10><XCN.1>8069</XCN.1><XCN.2><FN.1>MILLS</FN.1></XCN.2><XCN.3>DONNA</XCN.3></ORC.10><ORC.12><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></ORC.12></ORC><ORM_O01.ORDER_DETAIL><OBR><OBR.1>1</OBR.1><OBR.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></OBR.2><OBR.4><CE.1>95810</CE.1><CE.2>CHS AMB SCH SIXTEEN CHANNEL PSG</CE.2><CE.3>UNITEDIAGEAP</CE.3><CE.5>POLYSOMNOGRA</CE.5></OBR.4><OBR.6><TS.1>20201117142422</TS.1></OBR.6><OBR.11>Ancillary Pe</OBR.11><OBR.16><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></OBR.16><OBR.17><XTN.1>6314654200</XTN.1></OBR.17><OBR.27><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></OBR.27><OBR.36><TS.1>20201117142422</TS.1></OBR.36></OBR><DG1><DG1.1>1</DG1.1><DG1.2>I10</DG1.2><DG1.3><CE.1>R06.83</CE.1><CE.2>Snoring</CE.2><CE.3>I10</CE.3></DG1.3><DG1.4>Snoring</DG1.4></DG1></ORM_O01.ORDER_DETAIL></ORM_O01.ORDER></ORM_O01>
+2020-12-03 13:44:27 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:44:49 [INFO]<6> [HL7toJSON.Worker] Stopping Service
+2020-12-03 13:44:49 [INFO]<6> [HL7toJSON.Worker] Disposing Service
+2020-12-03 13:45:00 [INFO]<1> [] ====================================================================
+2020-12-03 13:45:00 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:45:00 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:45:00 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:45:00 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:45:01 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:45:02 [INFO]<5> [HL7toJSON.Worker] HL7 Pipe Delimited Message Output:
+2020-12-03 13:45:02 [INFO]<5> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPIOBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:45:02 [INFO]<5> [HL7toJSON.Worker] HL7 XML Formatted Message Output:
+2020-12-03 13:45:02 [INFO]<5> [HL7toJSON.Worker] <ORM_O01 xmlns="urn:hl7-org:v2xml"><MSH><MSH.1>|</MSH.1><MSH.2>^~\&amp;</MSH.2><MSH.3><HD.1>EPIC</HD.1></MSH.3><MSH.5><HD.1>UNITEDSLEEP</HD.1></MSH.5><MSH.7><TS.1>20201117142424</TS.1></MSH.7><MSH.9><MSG.1>ORM</MSG.1><MSG.2>O01</MSG.2></MSH.9><MSH.10>160</MSH.10><MSH.11><PT.1>T</PT.1></MSH.11><MSH.12><VID.1>2.5.1</VID.1></MSH.12></MSH><ORM_O01.PATIENT><PID><PID.1>1</PID.1><PID.5><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></PID.5><PID.7><TS.1>19701008</TS.1></PID.7><PID.8>M</PID.8><PID.11><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></PID.11><PID.13><XTN.1>6314447744</XTN.1></PID.13></PID><ORM_O01.PATIENT_VISIT /><ORM_O01.INSURANCE><IN1><IN1.1>1</IN1.1><IN1.2><CE.1>AUSHC</CE.1><CE.2>AETNA HMO</CE.2></IN1.2><IN1.3><CX.1>4500</CX.1></IN1.3><IN1.4><XON.1>AETNA HMO</XON.1></IN1.4><IN1.5><XAD.1><SAD.1>PO BOX 981106</SAD.1></XAD.1><XAD.3>EL PASO</XAD.3><XAD.4>TX</XAD.4><XAD.5>79998-1106</XAD.5></IN1.5><IN1.7><XTN.1>8006240756</XTN.1></IN1.7><IN1.8>12121</IN1.8><IN1.16><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></IN1.16><IN1.17><CE.1>1</CE.1></IN1.17><IN1.18><TS.1>19701008</TS.1></IN1.18><IN1.19><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></IN1.19><IN1.22>1</IN1.22><IN1.36>123456789</IN1.36></IN1></ORM_O01.INSURANCE></ORM_O01.PATIENT><ORM_O01.ORDER><ORC><ORC.1>NW</ORC.1><ORC.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></ORC.2><ORC.7><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></ORC.7><ORC.9><TS.1>20201117142422</TS.1></ORC.9><ORC.10><XCN.1>8069</XCN.1><XCN.2><FN.1>MILLS</FN.1></XCN.2><XCN.3>DONNA</XCN.3></ORC.10><ORC.12><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></ORC.12></ORC><ORM_O01.ORDER_DETAIL><OBR><OBR.1>1</OBR.1><OBR.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></OBR.2><OBR.4><CE.1>95810</CE.1><CE.2>CHS AMB SCH SIXTEEN CHANNEL PSG</CE.2><CE.3>UNITEDIAGEAP</CE.3><CE.5>POLYSOMNOGRA</CE.5></OBR.4><OBR.6><TS.1>20201117142422</TS.1></OBR.6><OBR.11>Ancillary Pe</OBR.11><OBR.16><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></OBR.16><OBR.17><XTN.1>6314654200</XTN.1></OBR.17><OBR.27><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></OBR.27><OBR.36><TS.1>20201117142422</TS.1></OBR.36></OBR><DG1><DG1.1>1</DG1.1><DG1.2>I10</DG1.2><DG1.3><CE.1>R06.83</CE.1><CE.2>Snoring</CE.2><CE.3>I10</CE.3></DG1.3><DG1.4>Snoring</DG1.4></DG1></ORM_O01.ORDER_DETAIL></ORM_O01.ORDER></ORM_O01>
+2020-12-03 13:45:02 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:46:44 [INFO]<1> [] ====================================================================
+2020-12-03 13:46:59 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:46:59 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:46:59 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:46:59 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] HL7 Pipe Delimited Message Output:
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPIOBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] HL7 XML Formatted Message Output:
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] <ORM_O01 xmlns="urn:hl7-org:v2xml"><MSH><MSH.1>|</MSH.1><MSH.2>^~\&amp;</MSH.2><MSH.3><HD.1>EPIC</HD.1></MSH.3><MSH.5><HD.1>UNITEDSLEEP</HD.1></MSH.5><MSH.7><TS.1>20201117142424</TS.1></MSH.7><MSH.9><MSG.1>ORM</MSG.1><MSG.2>O01</MSG.2></MSH.9><MSH.10>160</MSH.10><MSH.11><PT.1>T</PT.1></MSH.11><MSH.12><VID.1>2.5.1</VID.1></MSH.12></MSH><ORM_O01.PATIENT><PID><PID.1>1</PID.1><PID.5><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></PID.5><PID.7><TS.1>19701008</TS.1></PID.7><PID.8>M</PID.8><PID.11><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></PID.11><PID.13><XTN.1>6314447744</XTN.1></PID.13></PID><ORM_O01.PATIENT_VISIT /><ORM_O01.INSURANCE><IN1><IN1.1>1</IN1.1><IN1.2><CE.1>AUSHC</CE.1><CE.2>AETNA HMO</CE.2></IN1.2><IN1.3><CX.1>4500</CX.1></IN1.3><IN1.4><XON.1>AETNA HMO</XON.1></IN1.4><IN1.5><XAD.1><SAD.1>PO BOX 981106</SAD.1></XAD.1><XAD.3>EL PASO</XAD.3><XAD.4>TX</XAD.4><XAD.5>79998-1106</XAD.5></IN1.5><IN1.7><XTN.1>8006240756</XTN.1></IN1.7><IN1.8>12121</IN1.8><IN1.16><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></IN1.16><IN1.17><CE.1>1</CE.1></IN1.17><IN1.18><TS.1>19701008</TS.1></IN1.18><IN1.19><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></IN1.19><IN1.22>1</IN1.22><IN1.36>123456789</IN1.36></IN1></ORM_O01.INSURANCE></ORM_O01.PATIENT><ORM_O01.ORDER><ORC><ORC.1>NW</ORC.1><ORC.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></ORC.2><ORC.7><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></ORC.7><ORC.9><TS.1>20201117142422</TS.1></ORC.9><ORC.10><XCN.1>8069</XCN.1><XCN.2><FN.1>MILLS</FN.1></XCN.2><XCN.3>DONNA</XCN.3></ORC.10><ORC.12><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></ORC.12></ORC><ORM_O01.ORDER_DETAIL><OBR><OBR.1>1</OBR.1><OBR.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></OBR.2><OBR.4><CE.1>95810</CE.1><CE.2>CHS AMB SCH SIXTEEN CHANNEL PSG</CE.2><CE.3>UNITEDIAGEAP</CE.3><CE.5>POLYSOMNOGRA</CE.5></OBR.4><OBR.6><TS.1>20201117142422</TS.1></OBR.6><OBR.11>Ancillary Pe</OBR.11><OBR.16><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></OBR.16><OBR.17><XTN.1>6314654200</XTN.1></OBR.17><OBR.27><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></OBR.27><OBR.36><TS.1>20201117142422</TS.1></OBR.36></OBR><DG1><DG1.1>1</DG1.1><DG1.2>I10</DG1.2><DG1.3><CE.1>R06.83</CE.1><CE.2>Snoring</CE.2><CE.3>I10</CE.3></DG1.3><DG1.4>Snoring</DG1.4></DG1></ORM_O01.ORDER_DETAIL></ORM_O01.ORDER></ORM_O01>
+2020-12-03 13:47:08 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] HL7 Pipe Delimited Message Output:
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPIOBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] HL7 XML Formatted Message Output:
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] <ORM_O01 xmlns="urn:hl7-org:v2xml"><MSH><MSH.1>|</MSH.1><MSH.2>^~\&amp;</MSH.2><MSH.3><HD.1>EPIC</HD.1></MSH.3><MSH.5><HD.1>UNITEDSLEEP</HD.1></MSH.5><MSH.7><TS.1>20201117142424</TS.1></MSH.7><MSH.9><MSG.1>ORM</MSG.1><MSG.2>O01</MSG.2></MSH.9><MSH.10>160</MSH.10><MSH.11><PT.1>T</PT.1></MSH.11><MSH.12><VID.1>2.5.1</VID.1></MSH.12></MSH><ORM_O01.PATIENT><PID><PID.1>1</PID.1><PID.5><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></PID.5><PID.7><TS.1>19701008</TS.1></PID.7><PID.8>M</PID.8><PID.11><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></PID.11><PID.13><XTN.1>6314447744</XTN.1></PID.13></PID><ORM_O01.PATIENT_VISIT /><ORM_O01.INSURANCE><IN1><IN1.1>1</IN1.1><IN1.2><CE.1>AUSHC</CE.1><CE.2>AETNA HMO</CE.2></IN1.2><IN1.3><CX.1>4500</CX.1></IN1.3><IN1.4><XON.1>AETNA HMO</XON.1></IN1.4><IN1.5><XAD.1><SAD.1>PO BOX 981106</SAD.1></XAD.1><XAD.3>EL PASO</XAD.3><XAD.4>TX</XAD.4><XAD.5>79998-1106</XAD.5></IN1.5><IN1.7><XTN.1>8006240756</XTN.1></IN1.7><IN1.8>12121</IN1.8><IN1.16><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></IN1.16><IN1.17><CE.1>1</CE.1></IN1.17><IN1.18><TS.1>19701008</TS.1></IN1.18><IN1.19><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></IN1.19><IN1.22>1</IN1.22><IN1.36>123456789</IN1.36></IN1></ORM_O01.INSURANCE></ORM_O01.PATIENT><ORM_O01.ORDER><ORC><ORC.1>NW</ORC.1><ORC.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></ORC.2><ORC.7><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></ORC.7><ORC.9><TS.1>20201117142422</TS.1></ORC.9><ORC.10><XCN.1>8069</XCN.1><XCN.2><FN.1>MILLS</FN.1></XCN.2><XCN.3>DONNA</XCN.3></ORC.10><ORC.12><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></ORC.12></ORC><ORM_O01.ORDER_DETAIL><OBR><OBR.1>1</OBR.1><OBR.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></OBR.2><OBR.4><CE.1>95810</CE.1><CE.2>CHS AMB SCH SIXTEEN CHANNEL PSG</CE.2><CE.3>UNITEDIAGEAP</CE.3><CE.5>POLYSOMNOGRA</CE.5></OBR.4><OBR.6><TS.1>20201117142422</TS.1></OBR.6><OBR.11>Ancillary Pe</OBR.11><OBR.16><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></OBR.16><OBR.17><XTN.1>6314654200</XTN.1></OBR.17><OBR.27><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></OBR.27><OBR.36><TS.1>20201117142422</TS.1></OBR.36></OBR><DG1><DG1.1>1</DG1.1><DG1.2>I10</DG1.2><DG1.3><CE.1>R06.83</CE.1><CE.2>Snoring</CE.2><CE.3>I10</CE.3></DG1.3><DG1.4>Snoring</DG1.4></DG1></ORM_O01.ORDER_DETAIL></ORM_O01.ORDER></ORM_O01>
+2020-12-03 13:47:40 [INFO]<6> [HL7toJSON.Worker] Done with Inbound Change Event
+2020-12-03 13:58:16 [INFO]<1> [] ====================================================================
+2020-12-03 13:58:17 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:58:17 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Debug\netcoreapp3.1\
+2020-12-03 13:58:17 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:58:17 [INFO]<1> [HL7toJSON.Worker] Binding Events from Input Folder: C:\temp
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] InBound Change Event Triggered by [C:\temp\test.hl7]
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] HL7 Pipe Delimited Message Output:
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] MSH|^~\&|EPIC||UNITEDSLEEP||20201117142424||ORM^O01|160|T|2.5.1PID|1||||MULTIPLE^ONE||19701008|M|||122 MAPLE DR^^SMITHTOWN^NY^11787^USA||6314447744IN1|1|AUSHC^AETNA HMO|4500|AETNA HMO|PO BOX 981106^^EL PASO^TX^79998-1106||8006240756|12121||||||||MULTIPLE^ONE|1|19701008|122 MAPLE DR^^SMITHTOWN^NY^11787^USA|||1||||||||||||||123456789ORC|NW|501550219^EPIC|||||^^^20201117142422^^R||20201117142422|8069^MILLS^DONNA||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPIOBR|1|501550219^EPIC||95810^CHS AMB SCH SIXTEEN CHANNEL PSG^UNITEDIAGEAP^^POLYSOMNOGRA||20201117142422|||||Ancillary Pe|||||1649619636^CHSLI^IP^PHYSICIAN ONE^^^^^NPI^^^^NPI|6314654200||||||||||^^^20201117142422^^R|||||||||20201117142422DG1|1|I10|R06.83^Snoring^I10|Snoring||^180;ORD
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] HL7 XML Formatted Message Output:
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] <ORM_O01 xmlns="urn:hl7-org:v2xml"><MSH><MSH.1>|</MSH.1><MSH.2>^~\&amp;</MSH.2><MSH.3><HD.1>EPIC</HD.1></MSH.3><MSH.5><HD.1>UNITEDSLEEP</HD.1></MSH.5><MSH.7><TS.1>20201117142424</TS.1></MSH.7><MSH.9><MSG.1>ORM</MSG.1><MSG.2>O01</MSG.2></MSH.9><MSH.10>160</MSH.10><MSH.11><PT.1>T</PT.1></MSH.11><MSH.12><VID.1>2.5.1</VID.1></MSH.12></MSH><ORM_O01.PATIENT><PID><PID.1>1</PID.1><PID.5><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></PID.5><PID.7><TS.1>19701008</TS.1></PID.7><PID.8>M</PID.8><PID.11><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></PID.11><PID.13><XTN.1>6314447744</XTN.1></PID.13></PID><ORM_O01.PATIENT_VISIT /><ORM_O01.INSURANCE><IN1><IN1.1>1</IN1.1><IN1.2><CE.1>AUSHC</CE.1><CE.2>AETNA HMO</CE.2></IN1.2><IN1.3><CX.1>4500</CX.1></IN1.3><IN1.4><XON.1>AETNA HMO</XON.1></IN1.4><IN1.5><XAD.1><SAD.1>PO BOX 981106</SAD.1></XAD.1><XAD.3>EL PASO</XAD.3><XAD.4>TX</XAD.4><XAD.5>79998-1106</XAD.5></IN1.5><IN1.7><XTN.1>8006240756</XTN.1></IN1.7><IN1.8>12121</IN1.8><IN1.16><XPN.1><FN.1>MULTIPLE</FN.1></XPN.1><XPN.2>ONE</XPN.2></IN1.16><IN1.17><CE.1>1</CE.1></IN1.17><IN1.18><TS.1>19701008</TS.1></IN1.18><IN1.19><XAD.1><SAD.1>122 MAPLE DR</SAD.1></XAD.1><XAD.3>SMITHTOWN</XAD.3><XAD.4>NY</XAD.4><XAD.5>11787</XAD.5><XAD.6>USA</XAD.6></IN1.19><IN1.22>1</IN1.22><IN1.36>123456789</IN1.36></IN1></ORM_O01.INSURANCE></ORM_O01.PATIENT><ORM_O01.ORDER><ORC><ORC.1>NW</ORC.1><ORC.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></ORC.2><ORC.7><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></ORC.7><ORC.9><TS.1>20201117142422</TS.1></ORC.9><ORC.10><XCN.1>8069</XCN.1><XCN.2><FN.1>MILLS</FN.1></XCN.2><XCN.3>DONNA</XCN.3></ORC.10><ORC.12><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></ORC.12></ORC><ORM_O01.ORDER_DETAIL><OBR><OBR.1>1</OBR.1><OBR.2><EI.1>501550219</EI.1><EI.2>EPIC</EI.2></OBR.2><OBR.4><CE.1>95810</CE.1><CE.2>CHS AMB SCH SIXTEEN CHANNEL PSG</CE.2><CE.3>UNITEDIAGEAP</CE.3><CE.5>POLYSOMNOGRA</CE.5></OBR.4><OBR.6><TS.1>20201117142422</TS.1></OBR.6><OBR.11>Ancillary Pe</OBR.11><OBR.16><XCN.1>1649619636</XCN.1><XCN.2><FN.1>CHSLI</FN.1></XCN.2><XCN.3>IP</XCN.3><XCN.4>PHYSICIAN ONE</XCN.4><XCN.9><HD.1>NPI</HD.1></XCN.9><XCN.13>NPI</XCN.13></OBR.16><OBR.17><XTN.1>6314654200</XTN.1></OBR.17><OBR.27><TQ.4><TS.1>20201117142422</TS.1></TQ.4><TQ.6>R</TQ.6></OBR.27><OBR.36><TS.1>20201117142422</TS.1></OBR.36></OBR><DG1><DG1.1>1</DG1.1><DG1.2>I10</DG1.2><DG1.3><CE.1>R06.83</CE.1><CE.2>Snoring</CE.2><CE.3>I10</CE.3></DG1.3><DG1.4>Snoring</DG1.4></DG1></ORM_O01.ORDER_DETAIL></ORM_O01.ORDER></ORM_O01>
+2020-12-03 13:58:20 [INFO]<5> [HL7toJSON.Worker] Done with Inbound Change Event

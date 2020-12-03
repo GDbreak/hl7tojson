@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "HL7toJSON": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

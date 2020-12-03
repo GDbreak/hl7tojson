@@ -1,0 +1,18 @@
+2020-12-03 13:19:06 [INFO]<1> [] ====================================================================
+2020-12-03 13:19:06 [INFO]<1> [] Application Starts. Version: 1.0.0.0
+2020-12-03 13:19:06 [INFO]<1> [] Application Directory: C:\Users\hhecht\source\repos\HL7toJSON\bin\Release\netcoreapp3.1\
+2020-12-03 13:19:06 [INFO]<1> [HL7toJSON.Worker] Service Starting
+2020-12-03 13:19:06 [WARN]<1> [HL7toJSON.Worker] Please make sure the InputFolder [] exists, then restart the service.
+2020-12-03 13:19:26 [INFO]<4> [HL7toJSON.Worker] Stopping Service
+2020-12-03 13:19:26 [INFO]<4> [HL7toJSON.Worker] Disposing Service
+2020-12-03 13:19:26 [FATL]<1> [] Application terminated unexpectedly
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HL7toJSON.Worker.Dispose() in C:\Users\hhecht\source\repos\HL7toJSON\Worker.cs:line 73
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Hosting.Internal.Host.DisposeAsync()
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at HL7toJSON.Program.Main(String[] args) in C:\Users\hhecht\source\repos\HL7toJSON\Program.cs:line 36
+2020-12-03 13:19:26 [INFO]<1> [] ====================================================================
+
