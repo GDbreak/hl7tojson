@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HL7toJSON", "HL7toJSON.csproj", "{71AE4409-A6F0-459A-B042-A8622616F76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HL7toJSON", "HL7toJson\HL7toJSON.csproj", "{E559744A-E394-4D7F-8D13-9096252DFCAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HL7CL", "HL7CL\HL7CL.csproj", "{5E50E879-7152-4DC9-95D3-204BCD4841B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71AE4409-A6F0-459A-B042-A8622616F76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71AE4409-A6F0-459A-B042-A8622616F76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71AE4409-A6F0-459A-B042-A8622616F76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71AE4409-A6F0-459A-B042-A8622616F76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E559744A-E394-4D7F-8D13-9096252DFCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E559744A-E394-4D7F-8D13-9096252DFCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E559744A-E394-4D7F-8D13-9096252DFCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E559744A-E394-4D7F-8D13-9096252DFCAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E50E879-7152-4DC9-95D3-204BCD4841B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E50E879-7152-4DC9-95D3-204BCD4841B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E50E879-7152-4DC9-95D3-204BCD4841B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E50E879-7152-4DC9-95D3-204BCD4841B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

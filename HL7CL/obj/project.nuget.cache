@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3aCQbZEFkf5TqfTHtTrKhu5VgLbWH23d5mU3H7x2EGwhSr4wjXZwVKK62nWd1Qq/b0+1eJ5MEX2litwm9pb3Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hhecht\\source\\repos\\HL7toJSON\\HL7CL\\HL7CL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hhecht\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\hhecht\\.nuget\\packages\\nhapi.core\\2.6.0.2\\nhapi.core.2.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
